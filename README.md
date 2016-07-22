@@ -22,14 +22,14 @@ open http://localhost:3000
     - Vendor bundle splitting
     - Selective imports
   - Inject index.html with cache breaking assets (js, css)
-  - Import from project root (ex. `import { Foo } from 'components/Foo`)
+  - Import from project root (ex. `import { Foo } from 'components/Foo'`)
 - Styles
   - [CSS Modules](https://github.com/css-modules/css-modules) including SASS support
   - [Bootstrap](http://getbootstrap.com/) and [Font-Awesome](http://fontawesome.io/) (via `.scss`) and thus can be configured
     - Bootstrap colors overridden using [`material-colors`](https://github.com/shuhei/material-colors)
     - [`react-bootstrap`](https://github.com/react-bootstrap/react-bootstrap)
   - `postcss` with `autoprefixer`
-- Polyfills for `window.fetch` and [`babel-polyfill`](https://babeljs.io/docs/usage/polyfill/) for ES2015 environment (`Promise`, `Object.assign`, `Array.from`, `Array.includes`, etc)
+- Polyfills for [`window.fetch`](https://github.com/github/fetch) and [`babel-polyfill`](https://babeljs.io/docs/usage/polyfill/) for ES2015 environment (`Promise`, `Object.assign`, `Array.from`, `Array.includes`, etc)
 - Linting using eslint with airbnb's javascript rules (`npm run lint`)
 - Performance
   - `react-addons-perf` and `what-did-you-update`
@@ -47,4 +47,5 @@ ReactPerf.getWasted().reduce((result, item) => result += item.inclusiveRenderDur
 - [ ] Setup testing (`npm test`) using `ava`, `enzyme`, `jest`, etc
 - [ ] Document how to change various things (`_variables.scss` for colors, `eslint` rules, etc)
 - [ ] Document how to remove unwanted features (redux, sass, etc)
+- [ ] Document how Webpack configuration is setup (explain use for each plugin, loader, etc)
 - [ ] `Immutable.js` / `seemless-immutable`
