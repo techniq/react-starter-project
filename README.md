@@ -38,7 +38,7 @@ open http://localhost:3000
 ```js
 ReactPerf.start()
 // interact with app...
-RectPerf.stop()
+ReactPerf.stop()
 ReactPerf.printWasted()
 ReactPerf.getWasted().reduce((result, item) => result += item.inclusiveRenderDuration, 0)
 ```
