@@ -1,0 +1,19 @@
+@import 'variables';
+
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap';
+@import '~font-awesome/scss/font-awesome';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);
+
+body {
+  background-color: $md-grey-50;
+}
+
+body.roboto {
+  font-family: 'Roboto', 'Helvetica Neue, Helvetica, Arial';
+  font-weight: 300;
+  
+  th, label {
+    // Reduce font-weight from bold to 500 when using Roboto
+    font-weight: 500;
+  }
+}

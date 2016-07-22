@@ -1,0 +1,69 @@
+@import '~material-colors/dist/colors.scss';
+
+// Bootstrap brand color customization - http://getbootstrap.com/customize/
+$brand-primary: $md-light-blue-500;
+$brand-success: $md-green-500;
+$brand-danger: $md-red-500;
+$brand-warning: $md-orange-500;
+$brand-info: $md-blue-500;
+
+// Non-standard convenience variables
+$brand-primary-50: $md-light-blue-50;
+$brand-primary-100: $md-light-blue-100;
+$brand-primary-200: $md-light-blue-200;
+$brand-primary-300: $md-light-blue-300;
+$brand-primary-400: $md-light-blue-400;
+$brand-primary-500: $md-light-blue-500;
+$brand-primary-600: $md-light-blue-600;
+$brand-primary-700: $md-light-blue-700;
+$brand-primary-800: $md-light-blue-800;
+$brand-primary-900: $md-light-blue-900;
+$brand-primary-A100: $md-light-blue-a100;
+$brand-primary-A200: $md-light-blue-a200;
+$brand-primary-A400: $md-light-blue-a400;
+$brand-primary-A700: $md-light-blue-a700;
+
+$state-success-text: $md-green-800;    //#3c763d;
+$state-success-bg: $md-green-50;       //#dff0d8;
+$state-success-border: $md-green-800;  //darken(spin($state-success-bg, -10), 5%);
+$state-info-text: $md-blue-800;        //#31708f;
+$state-info-bg: $md-blue-50;           //#d9edf7;
+$state-info-border: $md-blue-800;      //darken(spin($state-info-bg, -10), 7%);
+$state-warning-text: $md-orange-800;   //#8a6d3b;
+$state-warning-bg: $md-orange-50;      //#fcf8e3;
+$state-warning-border: $md-orange-800; //darken(spin($state-warning-bg, -10), 5%);
+$state-danger-text: $md-red-800;       //#a94442;
+$state-danger-bg: $md-red-50;          //#f2dede;
+$state-danger-border: $md-red-800;     //darken(spin($state-danger-bg, -10), 5%);
+
+$navbar-default-color: white;
+$navbar-default-bg: $brand-primary-700;
+$navbar-default-link-color: rgba(255,255,255,1); //#777;
+$navbar-default-link-hover-color: $brand-primary-900; //#333;
+$navbar-default-link-active-color: $md-grey-50; //#555;
+$navbar-default-link-active-bg: $brand-primary-500;
+$navbar-default-link-disabled-color: #ccc;
+$navbar-default-toggle-hover-bg: #ddd;
+$navbar-default-toggle-icon-bar-bg: #888;
+$navbar-default-toggle-border-color: red;
+
+$navbar-inverse-color: white;
+$navbar-inverse-link-color: white;
+$navbar-inverse-link-active-color: white;
+$navbar-inverse-link-hover-color: $brand-primary-500;
+$navbar-inverse-link-active-bg: $brand-primary-500;
+$navbar-inverse-border: $brand-primary-700;
+
+//$nav-link-hover-bg: $brand-primary-700;
+$nav-disabled-link-color: $md-grey-500;
+$nav-disabled-link-hover-color: blue;
+
+$nav-tabs-border-color: #ddd;
+// $nav-tabs-link-hover-border-color: $brand-primary-700; //$gray-lighter;
+$nav-tabs-active-link-hover-bg: white; //$body-bg;
+$nav-tabs-active-link-hover-color: black; //$gray;
+// $nav-tabs-active-link-hover-border-color: $brand-primary-800; //#ddd
+// $nav-tabs-justified-link-border-color: #ddd
+// $nav-tabs-justified-active-link-border-color: 
+
+$navbar-margin-bottom: 0; // Remove bottom margin from navbar, allow content to sit directly against bottom
