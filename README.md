@@ -48,4 +48,5 @@ ReactPerf.getWasted().reduce((result, item) => result += item.inclusiveRenderDur
 - [ ] Document how to change various things (`_variables.scss` for colors, `eslint` rules, etc)
 - [ ] Document how to remove unwanted features (redux, sass, etc)
 - [ ] Document how Webpack configuration is setup (explain use for each plugin, loader, etc)
-- [ ] `Immutable.js` / `seemless-immutable`
+- [ ] Provide better react-router and redux examples that can be iterated upon
+- [ ] Consider `Immutable.js` / `seamless-immutable`
